@@ -42,5 +42,22 @@ function getGrade(score) {
   return "Invalid Marks";
 }
 
-console.log(getGrade(23));
+// console.log(getGrade(23));
+
+
+
+
+
+// QUESTION-2
+// ROCK-PAPER-SCISSOR LOGIC
+
+function RPS(user, computer){
+    if(user === "rock" && computer === "scissor") return "User Won";
+    if(user === "scissor" && computer === "paper") return "User Won";
+    if(user === "paper" && computer === "rock") return "User Won";
+    return "Computer Won"
+}
+
+console.log(RPS("rock", "paper"));
+
 

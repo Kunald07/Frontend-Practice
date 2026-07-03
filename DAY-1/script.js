@@ -10,6 +10,8 @@
 // 00-32  Fail
 // Anything else
 
+
+
 function getGrade(score) {
   if (score >= 90 && score <= 100) {
     return "A";
@@ -58,6 +60,60 @@ function RPS(user, computer){
     return "Computer Won"
 }
 
-console.log(RPS("rock", "paper"));
+// console.log(RPS("rock", "paper"));
+
+
+
+
+
+
+
+
+//QUESTION-3
+// Print numbers from 1 to 10 using a for loop.
+
+for(let i = 1; i <11; i++){
+    // console.log(i);
+    
+}
+
+
+
+//QUESTION-4
+//Print numbers from 10 to 1 using a while loop
+
+// start
+// while(end) {
+//     code
+//     change;
+// }
+
+
+//using while loop
+let i = 10;
+while(i>0) {
+    // console.log(i);
+    i--;
+}
+
+
+//using FOR loop
+for(let i = 10; i > 0 ; i--){
+    // console.log(i);
+}
+
+
+
+
+
+
+//QUESTION-5
+//Print even numbers from 1 to 20 using a loop.
+
+for(i= 1; i < 21; i++) {
+    if(i % 2 === 0) {
+        console.log(i); 
+    }
+}
 
 
